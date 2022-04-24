@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position properties</title>
+    <style>
+        .parent {
+            background-color: #264653;
+            padding: 50px;
+            font-size: large;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            /* position: relative; */
+            /* or absolute but not static*/
+        }
+        
+        .child {
+            padding: 10px;
+        }
+        
+        .child-1 {
+            background-color: burlywood;
+            position: absolute;
+            top: 25px;
+            left: 110px;
+        }
+        
+        .child-2 {
+            background-color: #e76f51;
+        }
+        
+        .child-3 {
+            background-color: #2a9d8f;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent"> Parent
+        <div class="child child-1"> child 1</div>
+        <div class="child child-2">child 2</div>
+        <div class="child child-3">child 3</div>
+    </div>
+
+</body>
+
+</html>
